@@ -15,7 +15,7 @@ const Home: React.FC = () => {
         <IonButton id="open-modal" expand="block">
           Open Sheet Modal
         </IonButton>
-        <IonModal ref={modal} trigger="open-modal" initialBreakpoint={0.25} breakpoints={[0, 0.25, 0.5, 0.75]} focusTrap={true}>
+        <IonModal ref={modal} trigger="open-modal" initialBreakpoint={0.25} breakpoints={[0, 0.25, 0.5, 0.75]} focusTrap={false}>
           <IonContent className="ion-padding">
             <div>Test</div>
             <IonButton>
